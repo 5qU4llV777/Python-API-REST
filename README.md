@@ -14,6 +14,9 @@ O objetivo é demonstrar boas práticas de desenvolvimento back-end, incluindo o
 - JWT (python-jose)  
 - Docker (opcional)  
 - Git  
+- Pytest (testes automatizados)
+
+
 
 ---
 
