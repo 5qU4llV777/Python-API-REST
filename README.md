@@ -102,6 +102,9 @@ test_update_product.py → Atualização de produto.
 
 test_delete_product.py → Exclusão de produto.
 
+## 🧾 Licença
+MIT
+
 
 ## Video API & Tests Funcionando
 
