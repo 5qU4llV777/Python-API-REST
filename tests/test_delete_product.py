@@ -15,4 +15,4 @@ def test_delete_product():
     # Exclui o produto
     response = client.delete("/products/1")
     assert response.status_code == 200
-    assert response.json()["msg"] == "Produto excluído com sucesso"
+    assert response.json()["msg"] == "Produto deletado com sucesso"

@@ -72,8 +72,32 @@ Acesse a documentação automática:
 👉 http://localhost:8000/docs (localhost in Bing)
 
 📂 Endpoints principais
-POST /register → Criar usuário
+- POST /register → Criar usuário
 
-POST /login → Autenticação e geração de token JWT
+- POST /login → Autenticação e geração de token JWT
 
-GET /users → Listar usuários (rota protegida)
+- GET /users → Listar usuários (rota protegida)
+
+- POST /products → Criar produto
+
+- GET /products → Listar produtos
+
+- PUT /products/{id} → Atualizar produto
+
+- DELETE /products/{id} → Excluir produto
+
+🧪 Testes automatizados
+Os testes foram criados com pytest e estão na pasta tests/.
+
+Exemplo de execução:
+
+```
+pytest -v
+```
+Testes disponíveis:
+
+test_main.py → Registro de usuário, login, criação e listagem de produtos.
+
+test_update_product.py → Atualização de produto.
+
+test_delete_product.py → Exclusão de produto.
