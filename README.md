@@ -101,3 +101,9 @@ test_main.py → Registro de usuário, login, criação e listagem de produtos.
 test_update_product.py → Atualização de produto.
 
 test_delete_product.py → Exclusão de produto.
+
+
+## Video API & Tests Funcionando
+
+[![Vídeo da API Python REST](https://img.youtube.com/vi/0W15YD-6WQI/0.jpg)](https://youtu.be/0W15YD-6WQI)
+
